@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Roboto+Slab:wght@100&family=Spectral&display=swap');
+
+/* Général */
+
+html,body{
+	margin: 0;
+	padding:0;
+	width: 100%;
+}
+
+html{
+	scroll-behavior:smooth;
+}
+
+body{
+	text-align:center;
+	font-size: 25px;
+    background-color: black;
+    font-family: 'Roboto Slab', serif;
+}
+
+h1{
+    margin: 20px auto;
+    color: rgb(175, 35, 35);
+	background-color: #a7a7a7;
+    font-family: 'Playfair Display SC', serif;
+    border: 2px solid white ;
+    padding: 10px;
+    width: 800px;
+}
+
+#logo{
+	width: 200px;
+}
+p , label {
+    color: white;  
+}
+
+/* Navigation */
+
+
+nav{
+	margin-right: 60%;
+	z-index: 1000;
+	position: sticky;
+	top:20px;
+	right: 0;
+	left: 0;
+}
+
+nav a{
+	font-size: 30px;
+	color: black;
+	padding:  10px;
+	margin: 10px;
+	text-decoration: none;
+	font-size: 20px;
+    font-weight: bold;
+	background-color: #a7a7a7;
+	box-shadow: 5px 5px 5px white;
+	display: inline-block;
+    font-family: 'Playfair Display SC', serif;
+	border: 2px solid black;	
+}
+
+nav a:hover{
+	background-color: black;
+	box-shadow: none;
+	text-decoration: underline;
+	color: white;
+	transform: scale(1.05) translateY(-5px);	
+}
+
+#flou{
+	text-shadow: 3px 3px 3px;
+}
+
+/* Header */
+
+header{
+	background: url(ressources/fond1.jpg) no-repeat;
+	border-bottom: 5px solid #a7a7a7;
+	line-height: 50px;
+}
+
+.droite{
+    width: 50%;
+    margin-left: 40%;
+}
+
+header #logo{
+    width: 300px;
+}
+
+#asso{
+	color: black;
+}
+
+#vikings{
+	text-shadow: 5px 5px 5px grey ;
+}
+
+
+/* Les Membres */
+
+#membres{
+	background: url(ressources/fond5.jpg);
+	border-bottom: 5px solid #a7a7a7;
+}
+
+li{
+	list-style-type:none;
+	height: 350px;
+	color: black;
+	background-color:#CA953E ;
+	font-size:80px;
+	width: 20%;
+	border: 5px solid white;
+	margin: 50px auto;
+	padding-top: 200px;
+}
+
+li p{
+	font-size: 30px;
+    margin-top: 250px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;border-top: 3px solid white;
+    background-color: #a7a7a7ec;
+    font-family: 'Playfair Display SC', serif;
+}
+
+ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 0;
+}
+
+#membre1{
+	background: url(ressources/membre1.jpg) center;
+}
+
+#membre2{
+	background: url(ressources/membre2.jpg) center;
+}
+
+#membre3{
+	background: url(ressources/membre3.jpg) center;
+}
+
+#membre4{
+	background: url(ressources/membre4.jpg) center;
+}
+
+#membre5{
+	background: url(ressources/membre5.jpg) center;
+}
+#membre6{
+	background: url(ressources/membre6.jpg) center;
+}
+
+#membre7{
+	background: url(ressources/membre7.jpg) center;
+}
+
+#membre8{
+	background: url(ressources/membre8.jfif) center;
+}
+#membre9{
+	background: url(ressources/membre9.jpg) center;
+}
+
+#membre10{
+	background: url(ressources/membre10.jpg) center;
+}
+
+#membre11{
+	background: url(ressources/membre11.jpg) center;
+}
+#membre12{
+	background: url(ressources/membre12.jfif) center;
+}
+
+.rouge{
+	text-shadow: 5px 5px 5px grey ;
+	color: rgb(175, 35, 35);
+	font-weight: bold;
+}
+
+/* La relève */
+
+#releve{
+	background: url(ressources/fond6.jpg);
+	border-bottom: 5px solid #a7a7a7;
+}
+
+#photos{
+    display: flex;
+	justify-content: center;
+}
+
+#photos img{
+    width: 300px;
+    margin: 100px;
+	border: 5px solid #a7a7a7;
+}
+
+#photos img:hover {
+    outline: 20px solid black;
+    transform: scale(1.05) translateY(-20px);
+}
+
+/* Alcool */
+
+#alcool{
+    background: url(ressources/fond3.jfif);
+    border-bottom: 5px solid #a7a7a7;
+	line-height: 50px;
+}
+
+#gauche{
+    width: 50%;
+    margin-right: 40%;
+}
+
+/* Adhésion */
+
+#adhesion {
+	background: url(ressources/fond2.jpg) no-repeat;
+    height: 1200px;
+    line-height: 55px ;
+}
+
+#envoyer{
+	font-size:20px;
+	width: 200px;
+	margin: 30px 100px;
+	text-decoration:none;
+	border: 2px solid black;
+	border-radius:10px;
+	background-color: #a7a7a7;
+	font-size: 35px;
+	cursor: pointer;
+}
+
+form{
+	text-align:left;
+	padding-left: 20%;
+	padding-top: 20px;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+form input, textarea, select{
+	border-radius:10px;
+	border: 2px solid black;
+	text-align: center;
+	outline:none; 
+	font-size: 25px;
+}
+
+textarea {
+	width: 90%;
+}
+
+label{
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.ouiNon{
+	text-decoration: none;
+}
+
+form p {
+	font-size: 20px;
+}
